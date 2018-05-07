@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Invie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Hojas de estilo/main.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+    <section style="background-image: url('Imagenes/background.png');">
+        <header id="header" class="header contenedor">
+            <figure class="logotipo">
+                <img src="Imagenes/invie.png" alt="invie-logo" width="186px" height="60px">
+            </figure>
+
+            <nav class="menu">
+                <ul>
+                    <li>
+                    <a href="index.html">Home</a> 
+                    </li>
+                    <li>
+                        <a href="#Precios.html">Precios</a>
+                    </li>
+                    <li>
+                        <a href="index.html#guitarras">Info</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section class="Tabla">
+        <div class="contenedor">
+                <table>
+                        <thead>
+                            <tr>
+                                <th>Modelos</th>
+                                <th>Precios</th>
+                                <th>Descripcion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Invie classic</td>
+                                <td>10000$</td>
+                                <td>Una Guitarra muy Pro</td>
+                            </tr>
+                            <tr>
+                                <td>Invie Yellow</td>
+                                <td>20000$</td>
+                                <td>Una Guitarra muy Pro</td>
+                            </tr>
+                            <tr>
+                                <td>Invie Start</td>
+                                <td>20000$</td>
+                                <td>Una Guitarra muy Pro</td>
+                            </tr>
+                        </tbody>
+                    </table>
+        </div>
+        
+    </section>
+
+    <footer class="footer"><!--Pie de pagina-->
+        <div class="contenedor">
+ 
+                  <div class="contacto">
+                     <img src="Imagenes/invie-white.png" alt="invie-white">
+                     <a href="tel:+58"><strong>Telefono</strong><span>+58 276-3578234</span></a>
+                     <a href="mailto:"><strong>Email</strong><span>Invie@gmail.com</span></a>
+                 </div>
+            
+ 
+            
+                 <form class="formulario">
+                     <div class="col-1">
+                         <label for="nombre">Nombre</label>
+                         <input type="text" name="" id="nombre" required placeholder="Nombre">
+                         <label for="email">Email</label>
+                         <input type="email" name="" id="email" required placeholder="Email">
+ 
+                         <label for="mujer">
+                             <input type="radio" id="mujer" name="sexo" checked>mujer
+                         </label>
+                         <label for="hombre">
+                                 <input type="radio" id="hombre" name="sexo">hombre
+                         </label>
+ 
+                         <div class="intereses">
+                             <label for="cotizacion">
+                                 <input type="checkbox" name="" id="cotizacion">Cotizacion
+                             </label>
+                             <label for="reclamos">
+                                 <input type="checkbox" name="" id="reclamos">Reclamos
+                             </label>
+                             <label for="intereses">
+                                 <input type="checkbox" name="" id="intereses">Intereses
+                             </label>    
+                             <label for="otros">
+                                     <input type="checkbox" name="" id="otros">Otros
+                             </label>  
+                         </div>
+                    </div>
+ 
+                    <div class="col-2">
+                                 <label for="comentarios">Comentarios</label>
+                                 <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                                 <input  class="button" type="submit" value="Enviar">                        
+                    </div>
+                     
+                 </div>
+             </form>
+         </div>
+         <div class="mensaje">
+                <h5>Copyright © 2018 Edward Hurtado</h5>
+        </div>
+     </footer>
+ </body>
+ </html>
