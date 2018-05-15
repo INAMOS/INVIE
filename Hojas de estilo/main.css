@@ -12,7 +12,8 @@ body{
 
 .portada{
     background-image: url('../Imagenes/background.png');
-    background: cover;
+    /*background: cover;*/
+    background-size:100%;
     color:white;
     padding:20px;
     height: 500px;
